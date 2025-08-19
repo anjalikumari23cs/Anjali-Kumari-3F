@@ -1,12 +1,16 @@
+package Day2;
 class Car{
     String model;
     int year;
+    static int numberOfcar=0;
     Car(String model,int year){
         this.model=model;
         this.year=year;
+        numberOfcar++;
     }
     void display(){
         System.out.println("model:"+model+"year: "+year);
+        System.out.println("total cars:"+numberOfcar);
     }
 }
 public class versions{

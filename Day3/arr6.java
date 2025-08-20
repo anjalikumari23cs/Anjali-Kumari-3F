@@ -3,20 +3,18 @@ import java.util.Scanner;
 public class arr6 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter number of plyars: ");
-        int n=sc.nextInt();
-        int arr[]=new int[n];
-        for(int i=0;i<n;i++){
+        int arr[]=new int[11];
+        for(int i=0;i<11;i++){
             System.out.print("Enter height of "+(i+1)+" player");
             arr[i]=sc.nextInt();
         }
         double sum=0;
-        for(int i=0;i<n;i++){
+        for(int i=0;i<11;i++){
             sum+=arr[i];
         }
         System.out.println("Total sum of height's are "+sum);
-        double mean=sum/n;
-        System.out.println("Mean height of players is: "+mean);
+        double mean=sum/11;
+        System.out.printf("Mean height of players is: %.2f%n",mean);
 
     }
 }

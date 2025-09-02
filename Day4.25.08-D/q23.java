@@ -1,7 +1,6 @@
 // Group words with the same set of characters (e.g., "listen" and "silent").
 import java.util.*;
-import java.util.*;
-
+import java.util.Arrays;
 public class q23 {
     public static List<List<String>> groupAnagrams(String[] words) {
         Map<String, List<String>> map = new HashMap<>();

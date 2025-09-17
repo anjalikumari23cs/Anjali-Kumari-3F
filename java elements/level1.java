@@ -10,12 +10,20 @@
 //     }
 // }
 
+// public class level1 {
+//     public static void main(String[] args) {
+//         int math=94;
+//         int physics=95;
+//         int chemistry=97;
+//         int avg=(math+physics+chemistry)/3;
+//         System.out.println("Average marks of Sam are: "+avg);
+//     }
+// }
+
 public class level1 {
     public static void main(String[] args) {
-        int math=94;
-        int physics=95;
-        int chemistry=97;
-        int avg=(math+physics+chemistry)/3;
-        System.out.println("Average marks of Sam are: "+avg);
+        double km=10.8;
+        double mile=km*1.6;
+        System.out.println("Distance from Km to miles is "+mile);
     }
 }
